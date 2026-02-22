@@ -32,11 +32,17 @@ Uso de modelos pre-entrenados para la clasificación de expresiones faciales (da
 | **CNN profunda** | **3 bloques conv + 256N** | **92.87%** | **Mejor rendimiento propio** |
 | Transfer Learning| VGGFace (Fine-tuning)| 62.26% | Éxito en dataset ruidoso (FER) |
 
+> **Nota visual:** La arquitectura CNN profunda logró superar la barrera del 90% de precisión, demostrando la superioridad de las capas convolucionales para capturar jerarquías espaciales.
+
 ---
 
 ## Datasets 📊
 
 * **Práctica 1 y 2**: Se utiliza el dataset **Fashion-MNIST**, cargado directamente mediante `tensorflow.keras.datasets`.
+
+  ![Muestra de Fashion-MNIST](https://storage.googleapis.com/tf-datasets/keras/fashion_mnist_sample.png)
+  *(Ejemplos de las 10 categorías de prendas de vestir clasificadas)*
+  
 * **Práctica 3**: Se utiliza el dataset **FER-2013**. Debido a su tamaño, no se incluye en este repositorio. Puedes descargarlo en:
   * [Kaggle - FER2013 Dataset](https://www.kaggle.com/datasets/msambare/fer2013)
 
@@ -44,17 +50,18 @@ Uso de modelos pre-entrenados para la clasificación de expresiones faciales (da
 
 ## Tecnologías y librerías 🛠️
 
-* **Python 3**
-* **TensorFlow / Keras**
-* **OpenCV:** Procesamiento de imagen.
-* **Scikit-learn:** Métricas de evaluación (F1-Score, Confusion Matrix).
-* **Matplotlib / Seaborn:** Visualización de resultados y curvas de aprendizaje.
+* **Python 3** | **TensorFlow / Keras** | **OpenCV** * **Scikit-learn:** Métricas de evaluación (F1-Score, Confusion Matrix).
+* **Matplotlib / Seaborn:** Visualización de resultados.
 
 ---
 
 ## Estructura de archivos 📂
 
-Cada proyecto incluye su correspondiente **notebook (.ipynb)** con el código de entrenamiento y una **memoria técnica (PDF)** con el análisis detallado de los experimentos y conclusiones.
+Puedes explorar cada proyecto individualmente a través de los siguientes enlaces, que contienen el **notebook (.ipynb)** y la **memoria técnica (PDF)**:
+
+* 📁 **[01-Fashion-MNIST-MLP](./01-Fashion-MNIST-MLP)**: Redes densas y optimización.
+* 📁 **[02-CNN-Deep-Learning](./02-CNN-Deep-Learning)**: Arquitecturas convolucionales personalizadas.
+* 📁 **[03-Transfer-Learning-VGGFace](./03-Transfer-Learning-VGGFace)**: Reconocimiento facial avanzado.
 
 ---
 *Proyectos realizados en la asignatura de Computación Inteligente - Máster en Ingeniería Informática (UHU).*
