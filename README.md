@@ -40,8 +40,8 @@ Uso de modelos pre-entrenados para la clasificación de expresiones faciales (da
 
 * **Práctica 1 y 2**: Se utiliza el dataset **Fashion-MNIST**, cargado directamente mediante `tensorflow.keras.datasets`.
 
-  ![Muestra de Fashion-MNIST](https://storage.googleapis.com/tf-datasets/keras/fashion_mnist_sample.png)
-  *(Ejemplos de las 10 categorías de prendas de vestir clasificadas)*
+  ![Muestra de Fashion-MNIST](./02-CNN-Deep-Learning/fashion_mnist_sample.png)
+  <p align="center"><i>Ejemplos de las 10 categorías de prendas de vestir clasificadas</i></p>
   
 * **Práctica 3**: Se utiliza el dataset **FER-2013**. Debido a su tamaño, no se incluye en este repositorio. Puedes descargarlo en:
   * [Kaggle - FER2013 Dataset](https://www.kaggle.com/datasets/msambare/fer2013)
