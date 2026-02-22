@@ -18,7 +18,7 @@ Implementación de arquitecturas CNN personalizadas para mejorar la extracción 
 * **Modelos:** CNN Simple vs. CNN Profunda con múltiples bloques convolucionales.
 
 ### 3. Transfer Learning y Data Augmentation (reconocimiento facial)
-Uso de modelos pre-entrenados para la clasificación de expresiones faciales (Dataset FER-2013).
+Uso de modelos pre-entrenados para la clasificación de expresiones faciales (dataset FER-2013).
 * **Técnicas:** Fine-tuning y Extracción de Características utilizando **VGGFace**.
 * **Optimización:** Implementación de `ImageDataGenerator` para aumentar la robustez del modelo frente a ruido y falta de datos.
 
@@ -31,6 +31,14 @@ Uso de modelos pre-entrenados para la clasificación de expresiones faciales (Da
 | Red densa (MLP) | 512-256-128 | 89.34% | Límite de redes densas |
 | **CNN profunda** | **3 bloques conv + 256N** | **92.87%** | **Mejor rendimiento propio** |
 | Transfer Learning| VGGFace (Fine-tuning)| 62.26% | Éxito en dataset ruidoso (FER) |
+
+---
+
+## Datasets 📊
+
+* **Práctica 1 y 2**: Se utiliza el dataset **Fashion-MNIST**, cargado directamente mediante `tensorflow.keras.datasets`.
+* **Práctica 3**: Se utiliza el dataset **FER-2013**. Debido a su tamaño, no se incluye en este repositorio. Puedes descargarlo en:
+  * [Kaggle - FER2013 Dataset](https://www.kaggle.com/datasets/msambare/fer2013)
 
 ---
 
